@@ -309,9 +309,7 @@ h6{
     text-align: center;
 }
 
-@keyframes spinner {
-  to {transform: rotate(360deg);}
-}
+
  
 .spinner:before {
     content: '';
@@ -325,7 +323,7 @@ h6{
     margin-left: -30px;
     border-radius: 50%;
     border: 1px solid #ccc;
-    animation: spinner .6s linear infinite;
+    
 }
 
 .spinner:after{
@@ -338,7 +336,7 @@ h6{
     margin-top: -25px;
     margin-left: -25px;
     border-radius: 50px;
-    background: url(../images/spinner.jpg) center center;
+    background: url(../images/iconfinder_sync_1891404.png) center center;
 }
 
 /*------------------------ 2 Profile Section ------------------------*/
