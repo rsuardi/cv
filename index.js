@@ -16,8 +16,8 @@ var smtpTransport = nodemailer.createTransport({
            ciphers:'SSLv3'
         },
         auth: {
-            user: 'rubencsp@hotmail.com',
-            pass: 'holacomoestas1212'
+            user: 'xxxxxxxxxxx',
+            pass: 'xxxxxxxxxxx'
         }
     });
 
@@ -25,7 +25,7 @@ var smtpTransport = nodemailer.createTransport({
 
 /*------------------Routing Started ------------------------*/
 const corsOptions = {
-  origin: 'https://rubensuardiresume.azurewebsites.net',
+  origin: 'xxxxxxxxxxxxxxxxxxx',
   "methods": "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
 }
 // app.use(cors())
@@ -33,7 +33,7 @@ app.post('/send', cors(corsOptions), function(req, res){
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
    res.header('Access-Control-Allow-Headers', 'Content-Type');
     var mailOptions={
-        to : 'rsuardiaraujo@gmail.com',
+        to : 'xxxxxxxxxx',
         subject : req.body.email,
         html : req.body.message
         }
